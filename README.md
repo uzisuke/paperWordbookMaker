@@ -19,7 +19,7 @@
 pip install pymupdf openai tqdm
 ```
 
-##　🚀 使い方
+## 🚀 使い方
 1. pdf_path に対象のPDFファイルのパスを指定します
 
 2. OpenAI APIキーを openai.api_key に設定します
@@ -27,7 +27,7 @@ pip install pymupdf openai tqdm
 3. スクリプトを実行します：
 
 ```bash
-python script_name.py
+python main.py
 ```
 4. `output.txt` に語彙リストが出力されます
 
