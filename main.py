@@ -78,7 +78,7 @@ def generate_vocab_lists(chapters, output_file_path):
                         \"\"\"
                         """
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4o",
                 messages=[
                     {"role": "system", "content": "You are an assistant helping Japanese readers understand English academic papers."},
                     {"role": "user", "content": prompt}
